@@ -1,0 +1,219 @@
+{
+	"info": {
+		"_postman_id": "ed2dc8fe-32a3-4c1b-891f-000cc24311d7",
+		"name": "pruebas_api_aforo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost/crudapi/public/formulario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"crudapi",
+						"public",
+						"formulario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/crudapi/public/formulario/1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "referencia",
+							"value": "2222",
+							"type": "text"
+						},
+						{
+							"key": "nombre_proyecto",
+							"value": "aforo_avenida sur",
+							"type": "text"
+						},
+						{
+							"key": "fecha",
+							"value": "2212-12-12",
+							"type": "text"
+						},
+						{
+							"key": "hora_inicio",
+							"value": "12:41:11",
+							"type": "text"
+						},
+						{
+							"key": "hora_fin",
+							"value": "01:14:14",
+							"type": "text"
+						},
+						{
+							"key": "clima",
+							"value": "soleado",
+							"type": "text"
+						},
+						{
+							"key": "observador",
+							"value": "luis",
+							"type": "text"
+						},
+						{
+							"key": "sitio_conteo",
+							"value": "calle 5",
+							"type": "text"
+						},
+						{
+							"key": "sentido_transito",
+							"value": "cali-buga",
+							"type": "text"
+						},
+						{
+							"key": "supervisor",
+							"value": "fernandes",
+							"type": "text"
+						},
+						{
+							"key": "id_carril",
+							"value": "2121",
+							"type": "text"
+						},
+						{
+							"key": "tipo_movimiento",
+							"value": "izd-der",
+							"type": "text"
+						},
+						{
+							"key": "autos",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "mio_articulados",
+							"value": "12",
+							"type": "text"
+						},
+						{
+							"key": "mio_padrones",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "mio_alimentador",
+							"value": "7",
+							"type": "text"
+						},
+						{
+							"key": "buses",
+							"value": "8",
+							"type": "text"
+						},
+						{
+							"key": "busetas",
+							"value": "9",
+							"type": "text"
+						},
+						{
+							"key": "motos",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "camiones_c2p",
+							"value": "9",
+							"type": "text"
+						},
+						{
+							"key": "camiones_c2g",
+							"value": "11",
+							"type": "text"
+						},
+						{
+							"key": "camiones_c3",
+							"value": "12",
+							"type": "text"
+						},
+						{
+							"key": "camiones_c4",
+							"value": "13",
+							"type": "text"
+						},
+						{
+							"key": "camiones_c5",
+							"value": "14",
+							"type": "text"
+						},
+						{
+							"key": "camiones_c5_mayoresque",
+							"value": "15",
+							"type": "text"
+						},
+						{
+							"key": "bicicletas",
+							"value": "01",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/crudapi/public/formulario/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"crudapi",
+						"public",
+						"formulario",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/crudapi/public/formulario/4",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/crudapi/public/formulario/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"crudapi",
+						"public",
+						"formulario",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
